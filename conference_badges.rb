@@ -3,8 +3,8 @@
 # conference badges
 
 @Names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz" ]
-def badge_maker(name)
-  return "Hello, my name is #{name}."
+def badge_maker(@Names)
+  return "Hello, my name is #{@Names}."
 end
 
 def batch_badge_creator(list_ofspeakers)
