@@ -24,4 +24,4 @@ def printer(attendees)
   end
 end
   
-printer(["Lindsay","Rachel","molly"])
+printer(["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz""Lindsay","Rachel","molly"])
